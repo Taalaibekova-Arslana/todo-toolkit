@@ -1,0 +1,24 @@
+.todoItem {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+	.inputs {
+    width: 970px;
+    height: 200px;
+    background-color: rgba(137, 43, 226, 0.495);
+    border-radius: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		img {
+			object-fit: cover;
+			object-position: center;
+			width: 100px;
+      height: 120px;
+		}
+	}
+}
